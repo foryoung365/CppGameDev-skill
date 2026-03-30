@@ -50,6 +50,16 @@ If you want the human-readable policy mirrors, read:
 
 Runtime authority still lives in plugin assets such as `skills/`, `agents/`, and `commands/`, not in docs alone.
 
+## Offline Packaging
+
+To create a local offline release zip, run from the repository root:
+
+```powershell
+scripts\package-plugin.bat
+```
+
+The package is written to `dist\cpp-mmorpg-gameplay-<version>.zip`.
+
 ## Build Integration Boundary
 
 This plugin enforces the rule that commit-ready work needs a fresh successful compile, but it does not define project-specific build commands.

@@ -74,6 +74,12 @@ Smoke-test the plugin locally with Claude Code:
 claude --plugin-dir I:\CppGameDev
 ```
 
+Create an offline release package:
+
+```powershell
+scripts\package-plugin.bat
+```
+
 ## Publication Boundary
 
 Published with the plugin:
@@ -82,6 +88,9 @@ Published with the plugin:
 - marketplace catalog in `.claude-plugin/marketplace.json`
 - `README.md`
 - `docs/operator/quickstart.md`
+- `docs/workflow/request-lifecycle.md`
+- `docs/gameplay/context-card.md`
+- `docs/svn/commit-policy.md`
 
 Internal maintainer docs:
 

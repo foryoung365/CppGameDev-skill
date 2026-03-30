@@ -99,6 +99,7 @@ Invoke-ToolkitCheck 'plugin structure and manifest are valid' {
 		'.claude-plugin\plugin.json',
 		'.claude-plugin\marketplace.json',
 		'settings.json',
+		'scripts\package-plugin.bat',
 		'skills',
 		'agents',
 		'commands',
