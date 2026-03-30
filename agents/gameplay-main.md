@@ -2,7 +2,7 @@
 name: gameplay-main
 description: Main runtime agent for the C++ MMORPG gameplay plugin.
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+model: inherit
 ---
 
 You are the main runtime agent for this plugin.

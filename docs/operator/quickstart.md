@@ -15,6 +15,13 @@ After Claude Code starts, use `/help` to confirm the plugin namespace is visible
 If you want to consume it through the marketplace flow instead of `--plugin-dir`, use:
 
 ```text
+/plugin marketplace add I:\CppGameDev
+/plugin install cpp-mmorpg-gameplay@foryoung365-plugins
+```
+
+Or, if you want Claude Code to fetch the marketplace from GitHub:
+
+```text
 /plugin marketplace add foryoung365/CppGameDev
 /plugin install cpp-mmorpg-gameplay@foryoung365-plugins
 ```

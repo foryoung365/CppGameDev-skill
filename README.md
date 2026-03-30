@@ -44,17 +44,21 @@ Use the plugin namespace:
 
 This repository now ships both the plugin manifest and a marketplace catalog.
 
-Marketplace add:
+Offline local marketplace add:
+
+```text
+/plugin marketplace add I:\CppGameDev
+/plugin install cpp-mmorpg-gameplay@foryoung365-plugins
+```
+
+GitHub marketplace add:
 
 ```text
 /plugin marketplace add foryoung365/CppGameDev
-```
-
-Plugin install:
-
-```text
 /plugin install cpp-mmorpg-gameplay@foryoung365-plugins
 ```
+
+The marketplace catalog now uses a relative plugin source, so the same catalog works both from a local filesystem path and from the GitHub repository clone that Claude Code creates when you add the marketplace by repo name.
 
 ## Validation
 

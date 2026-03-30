@@ -143,8 +143,7 @@ Invoke-ToolkitCheck 'plugin structure and manifest are valid' {
 	Assert-Condition ($marketplace.plugins.Count -gt 0) 'marketplace.json must include at least one plugin entry'
 	$pluginEntry = @($marketplace.plugins | Where-Object name -eq 'cpp-mmorpg-gameplay')
 	Assert-Condition ($pluginEntry.Count -eq 1) 'marketplace.json must include exactly one cpp-mmorpg-gameplay entry'
-	Assert-Condition ($pluginEntry[0].source.source -eq 'github') 'marketplace plugin entry must use github source'
-	Assert-Condition ($pluginEntry[0].source.repo -eq 'foryoung365/CppGameDev') 'marketplace plugin entry repo must be foryoung365/CppGameDev'
+	Assert-Condition ($pluginEntry[0].source -eq './') 'marketplace plugin entry must use relative source ./'
 
 	$settings = Get-Content -Raw -LiteralPath (Join-Path $repoRoot 'settings.json') | ConvertFrom-Json
 	Assert-Condition (-not [string]::IsNullOrWhiteSpace($settings.agent)) 'settings.json must define agent'

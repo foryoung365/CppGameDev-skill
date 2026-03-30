@@ -2,7 +2,7 @@
 name: code-reviewer
 description: General review coordinator for request fit, risk, and evidence. Use before specialist reviews or when no language-specific reviewer applies.
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+model: inherit
 ---
 
 You are a general code reviewer for this project.

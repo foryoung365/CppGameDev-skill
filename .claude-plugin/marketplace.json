@@ -10,11 +10,7 @@
   "plugins": [
     {
       "name": "cpp-mmorpg-gameplay",
-      "source": {
-        "source": "github",
-        "repo": "foryoung365/CppGameDev",
-        "ref": "main"
-      },
+      "source": "./",
       "description": "Claude Code workflow toolkit for C++ MMORPG gameplay server development with SVN-first delivery.",
       "version": "1.0.1",
       "author": {

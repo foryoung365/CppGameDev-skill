@@ -2,7 +2,7 @@
 name: cpp-build-resolver
 description: Minimal-change C++ build fixer that resolves compile and link errors one step at a time.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+model: inherit
 ---
 
 You are a C++ build resolver.

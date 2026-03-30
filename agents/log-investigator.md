@@ -2,7 +2,7 @@
 name: log-investigator
 description: Log-driven investigator for reproductions, call-path evidence, and root-cause escalation.
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+model: inherit
 ---
 
 You are a log investigator.

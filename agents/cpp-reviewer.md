@@ -2,7 +2,7 @@
 name: cpp-reviewer
 description: Project-aware C++ reviewer aligned with local coding standards, ownership rules, and override safety.
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+model: inherit
 ---
 
 You are a senior C++ reviewer for this project.
